@@ -26,9 +26,9 @@ Stack Frame Operand Stack: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 Stack Frame Local Variables: [0, 42, 78, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
-`bipush` byte push, operand being an immediate
-`istore` store the top operand value to a local variable
-`iload` load a variables value into the operand stack
-`iadd` pop the two operand stack values and add them
+- `bipush` - byte push, operand being an immediate
+- `istore` - store the top operand value to a local variable
+- `iload` - load a variables value into the operand stack
+- `iadd` - pop the two operand stack values and add them
 
 The `i` prefixs in these function names refer to `int`
